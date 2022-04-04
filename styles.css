@@ -43,6 +43,13 @@ body {
   width: 100%;
 }
 
+.full {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
 .player_button {
   background: none;
   border: 0;
