@@ -10,4 +10,12 @@ const ranges = player.querySelectorAll('.player_slider')
 
 // Build out functions
 
+const togglePlay = () => {
+  if (video.paused) {
+    video.play()
+  } else {
+    video.pause()
+  }
+}
+
 // Hook up event listeners
